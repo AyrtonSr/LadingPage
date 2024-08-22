@@ -33,9 +33,11 @@
                 </a>
 
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                    <button type="button"
-                        class="text-white hover:bg-gradient-custom focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
-                        started</button>
+                    <a href="login.html">
+                        <button type="button"
+                            class="text-white hover:bg-gradient-custom focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                            started</button>
+                    </a>
 
                     <button id="open-drawer-button"
                         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white bg-gradient-custom rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -142,7 +144,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#"
+                                <a href="login.html"
                                     class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                     <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -154,22 +156,6 @@
                                     <span class="flex-1 ms-3 whitespace-nowrap">Sign In</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#"
-                                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                        viewBox="0 0 20 20">
-                                        <path
-                                            d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z" />
-                                        <path
-                                            d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z" />
-                                        <path
-                                            d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z" />
-                                    </svg>
-                                    <span class="flex-1 ms-3 whitespace-nowrap">Sign Up</span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -178,31 +164,29 @@
     </header>
 
     <main class='h-full mt-16'>
-        <section class='relative flex justify-center gap-10 px-10 py-5'>
-            <div class='relative w-2/5 rounded-[3rem]'>
-                <div class='relative px-2 w-full mt-16'>
-
-                    <div class='mb-3 block'>
-                        <img class="w-32 h-32" src="../imagens/logosemfundo.png" alt="logo gCID"
-                            style="width: 200px; height: auto;">
-                    </div>
-
-                    <div class='mt-10'>
-                        <h1 class='text-[70px] font-semibold'>
-                            A inovação começa aqui
-                        </h1>
-                        <p class='text-lg'>
-                            Conectamos as melhores equipes de talentos com institutos de ponta para transformar suas
-                            ideias em realidade.
-                        </p>
-                    </div>
-
+        <section class="flex flex-col lg:flex-row items-center justify-center gap-10 px-6 py-10">
+            <div class="w-full lg:w-1/2 flex flex-col items-center lg:items-start">
+                <div class="mb-6">
+                    <img class="w-24 sm:w-28 md:w-32 lg:w-40 h-auto" src="../imagens/logosemfundo.png" alt="logo gCID">
+                </div>
+                <div class="text-center lg:text-left">
+                    <h1
+                        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-snug lg:leading-tight">
+                        A inovação começa aqui
+                    </h1>
+                    <p class="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl">
+                        Conectamos as melhores equipes de talentos com institutos de ponta para transformar suas ideias
+                        em realidade.
+                    </p>
                 </div>
             </div>
-            <div class='relative'>
-                <img src="../imagens/svg.svg" alt="imagem de pessoas montando algo">
+            <div class="w-full lg:w-1/2 flex justify-center mt-10 lg:mt-0">
+                <img class="w-3/4 sm:w-2/3 md:w-1/2 lg:w-full h-auto" src="../imagens/svg.svg"
+                    alt="imagem de pessoas montando algo">
             </div>
         </section>
+
+
         <section class="dark:bg-gray-800 dark:border-gray-700 py-10 text-center border-t">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl font-semibold mb-4 text-white">Como Funciona</h2>
@@ -245,12 +229,17 @@
                             class="object-cover w-full h-full">
                     </div>
                     <div class="flex-1">
-                        <h1 class="text-4xl font-bold text-gray-800 mb-3">Cliente 1</h1>
-                        <h2 class="text-xl text-gray-600 mb-4">Participou do projeto: Nome do projeto</h2>
+                        <h1 class="text-4xl font-bold text-gray-800 mb-3">TechVision</h1>
+                        <h2 class="text-xl text-gray-600 mb-4">Participou do projeto: Inovação em Inteligência
+                            Artificial</h2>
                         <p class="text-gray-700 text-lg leading-relaxed">
-                            Eu achei isso e isso e isso e isso Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Culpa asperiores deserunt error sed odit ea, deleniti dicta doloremque vitae recusandae eos
-                            itaque at enim id. Praesentium facilis inventore dolores expedita.
+                            "O gCID nos ajudou a encontrar os parceiros ideais para desenvolver uma solução inovadora em
+                            Inteligência
+                            Artificial. Graças à plataforma, conseguimos conectar-nos com um instituto de renome e
+                            formar uma equipe de
+                            talentos excepcional. O projeto superou nossas expectativas, e estamos animados com as
+                            possibilidades
+                            futuras."
                         </p>
                     </div>
                 </div>
@@ -262,15 +251,21 @@
                             class="object-cover object-left w-full h-full">
                     </div>
                     <div class="flex-1">
-                        <h1 class="text-4xl font-bold text-gray-800 mb-3">Instituto 1</h1>
-                        <h2 class="text-xl text-gray-600 mb-4">Participou do projeto: Nome do projeto</h2>
+                        <h1 class="text-4xl font-bold text-gray-800 mb-3">Instituto Federal do Amazonas</h1>
+                        <h2 class="text-xl text-gray-600 mb-4">Participou do projeto: Inovação em Inteligência
+                            Artificial</h2>
                         <p class="text-gray-700 text-lg leading-relaxed">
-                            Eu achei isso e isso e isso e isso Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Culpa asperiores deserunt error sed odit ea, deleniti dicta doloremque vitae recusandae eos
-                            itaque at enim id. Praesentium facilis inventore dolores expedita.
+                            "O gCID foi uma ferramenta crucial para que nosso instituto se conectasse com empresas
+                            visionárias como a
+                            TechVision. Pudemos selecionar nossos melhores alunos para trabalhar no projeto de IA,
+                            proporcionando a
+                            eles uma experiência prática inestimável. O projeto foi um sucesso, e estamos ansiosos por
+                            novas
+                            colaborações através da plataforma."
                         </p>
                     </div>
                 </div>
+
                 <div id="talento"
                     class="flex flex-col md:flex-row items-center mb-16 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden p-8">
                     <div
@@ -279,15 +274,20 @@
                             class="object-cover w-full h-full">
                     </div>
                     <div class="flex-1">
-                        <h1 class="text-4xl font-bold text-gray-800 mb-3">Talento 1</h1>
-                        <h2 class="text-xl text-gray-600 mb-4">Participou do projeto: Nome do projeto</h2>
+                        <h1 class="text-4xl font-bold text-gray-800 mb-3">Paulo Silva</h1>
+                        <h2 class="text-xl text-gray-600 mb-4">Participou do projeto: Inovação em Inteligência
+                            Artificial</h2>
                         <p class="text-gray-700 text-lg leading-relaxed">
-                            Eu achei isso e isso e isso e isso Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Culpa asperiores deserunt error sed odit ea, deleniti dicta doloremque vitae recusandae eos
-                            itaque at enim id. Praesentium facilis inventore dolores expedita.
+                            "Ser selecionada para trabalhar no projeto de IA da TechVision foi uma oportunidade única, e
+                            tudo graças ao
+                            gCID. A plataforma facilitou o contato com o Instituto de Tecnologia Avançada, e a
+                            experiência de trabalhar
+                            em um projeto real foi incrível. Aprendi muito e estou mais preparada para o mercado de
+                            trabalho."
                         </p>
                     </div>
                 </div>
+
             </div>
         </section>
         <section class="flex flex-wrap justify-center gap-4 p-4">
@@ -364,8 +364,10 @@
                         <span class="text-base font-normal leading-tight text-gray-500 ms-3">Suporte 24/7</span>
                     </li>
                 </ul>
-                <button type="button"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Cadastre-se!</button>
+                <a href="cadastro.html">
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Cadastre-se!</button>
+                </a>
             </div>
             <div
                 class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
@@ -458,8 +460,7 @@
                 <div class="mb-6 md:mb-0">
                     <a href="#" class="flex items-center">
                         <img src="../imagens/logosemfundobranco.png" class="h-8 me-3" alt="FlowBite Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Get your
-                            Company, Institute, and Talents</span>
+
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
